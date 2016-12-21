@@ -1,0 +1,190 @@
+.container {
+	width: 1140px;
+	margin: auto;
+}
+.menu{
+	text-align: right;
+}
+.menu ul{
+	display: block;
+	font-size: 0px;
+	margin: 100px;
+	padding: 0; 
+	/* color: black; */
+	/* text-align: right; */
+	}
+.menu li{
+	display: inline-block;
+	font-family: sans-serif;
+/* 	color: white; */
+	font-size: 20px;
+	margin-right: 30px;
+	margin-top: 30px;
+}
+a{
+	text-decoration: none;
+	color: #696969;
+}
+a:hover {
+	text-decoration: underline;
+}
+.logo {
+	width: 50px;
+	height: 50px;
+	background: #4169E0;
+	border-radius: 50%;
+	background-image: url(img/cav.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-left: 30px;
+	margin-top: -80px;
+}
+.logo h1{
+	font-size: 50px;
+	margin-left: 70px;
+	font-style: arial; 
+	font-weight: normal;
+}
+.picture{
+	margin-top: 20px;
+	background: url(img/hat.png);
+	width: auto;
+	height: 486px;
+	color: white;
+/* 	background-image: url(img/tel.png);
+	background-repeat: no-repeat;
+	background-position: left; */
+}
+.picture img{
+	position: relative;
+	margin-top: 30px;
+	margin-left: 150px;
+}
+.text{
+	position: relative;
+	margin-left: 600px;
+	color: white;
+	margin-top: -370px;
+	font-size: 20px;
+}
+
+.button{
+	display: block;
+	background: #4169E0;
+	width: 130px;
+	height: 20px;
+	text-align: right;
+	color: white;
+	padding: 10px;
+	border-radius: 8px;
+	background-image: url(img/sing.png);
+	background-repeat: no-repeat;
+	background-position: left;
+}
+.one{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	background: #4169E0;
+	border-radius: 100%;
+	background-image: url(img/s1.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-left: 60px;
+	margin-top: 200px;
+}
+.one h3{
+	padding-top: 220px;
+	text-align: center;
+	color: #4169E0;
+}
+.one p{
+	text-align: center;
+	color: #696969;
+}
+.twoo{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	background: #f00;
+	border-radius: 100%;
+	background-image: url(img/s2.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-left: 470px;
+	margin-top: 200px;
+}
+.twoo h3{
+	padding-top: 220px;
+	text-align: center;
+	color: #4169E0;
+}
+.twoo p{
+	text-align: center;
+	color: #696969;
+}
+.three{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	background: #ff0;
+	border-radius: 100%;
+	background-image: url(img/s3.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-left: 870px;
+	margin-top: 200px;
+}
+.three h3{
+	padding-top: 220px;
+	text-align: center;
+	color: #4169E0;
+}
+.three p{
+	text-align: center;
+	color: #696969;
+}
+.shopping{
+	position: relative;
+	margin-top: 600px;
+	width: 600px;
+	height: 400px;
+
+}
+.shopping h2{
+	text-align: center;
+	font-size: 50px;
+	color: #696969;
+	font-style: arial; 
+	font-weight: normal;
+}
+.shopping img{
+	margin-left: 100px;
+	/* тег img в а помести */
+}
+.final{
+	color: #696969;
+	position: relative;
+	margin-top: -350px;
+	margin-left: 550px;
+	line-height: 2;
+}
+footer{
+	margin-top: 50px;
+	/* padding: 30px; */
+	color: grey;
+	width: 100%;
+	text-align: center;
+	font-size: 20px; 
+	border-top: 2px solid #ccc;
+    padding-top: 20px;
+}
+
+
+/* width: 1000px;
+	margin: 0 auto;
+	border: 1px solid #000;
+	height: 450px;
+	position: relative;
+/* позиционирование position reletiv\fixed\static\absolut
+4 правила для позиционирования элемента top\left\right\bottom */
